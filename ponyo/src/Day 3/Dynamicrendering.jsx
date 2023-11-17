@@ -26,6 +26,7 @@ const DynamicRendering = () => {
             key={index}
             onClick={() => {
               setSelectedFramerwork(index);
+              console.log("Hello");
             }}
           >
             {element}
